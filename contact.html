@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" text="text/css" href="assets/css/style.css">
+
+    <!--Title in browser tab-->
+    <title>Contact Page</title>
+
+</head>
+<body>
+
+<!--Links that open into other html files and will remain in their fixed position for each page-->
+<header id="fixed">
+    <article id="right">
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </article>
+</header>
+ 
+<!--Heading that is positioned relative to fixed header with links-->
+<div id="relative"><strong>Kimberly Youkel</strong></div>
+    
+    <!--Style all sections, id's, forms, and p's within this div.-->        
+    <div class="wrapper2">
+
+        <!--Main Content of contact.html page.-->        
+        <section id="content3">    
+            <h1><strong>Contact</strong></h1>
+            <hr id="hr3">
+
+            <form action="/action_page.php">
+                <p>Name</p>
+                <label for="Name"></label>
+                <input type="text" id="FullName" placeholder="John Smith..">
+                
+                <p>Email</p>
+                <label for="Email"></label>
+                <input type="text" id="Email" placeholder="example@gmail.com..">
+
+                <p>Message</p>
+                <label for="Message"></label>
+                <input type="text" id="Message">
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div>
+            <!--Sidebar with icons.-->
+            <aside id="sidebar3">
+                <!--Bolded Header-->
+                <h3><strong>Connect with Me</strong></h3>
+                    <!--Icon images when clicked go to my online profile pages.-->
+                    <article id="align">
+                        <a href="https://github.com/kyoukel/Basic-Portfolio"><img src="assets/images/github-icon.png" width="50" height="50" alt="GitHub" id="gh">
+                        </a>
+                        
+                        <a href="https://linkedin.com/in/kimberly-youkel"><img src="assets/images/linkedin-icon.png" width="50" height="50" alt="LinkedIn" id="link">
+                        </a>
+
+                        <a href="https://stackexchange.com/users/12715188/kyoukel"><img src="assets/images/stack-overflow-icon.png" width="46" height="46" alt"Stack Overflow" id="resize">
+                        </a>
+                    </article>    
+            </aside>       
+</body>
+</html>
