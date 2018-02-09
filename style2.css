@@ -1,6 +1,7 @@
 
 body {
     background-color: gainsboro;
+    margin: 0;
 }
 
 #header-wrapper{
@@ -28,21 +29,16 @@ body {
 }
 
 a:link, a:visited {
-    color: #777777;
+    color: #353333;
     text-decoration: none;
-}
-
-hr {
-    color: #777777;
-    margin-bottom: 25px;
 }
 
 #content {
     background-color: #ffffff;
-    color: #777777;
+    color: #353333;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 15px;
-    padding-right: 25px;
+    padding-right: 15px;
     padding-bottom: 25px;
     border-style: solid;
     border-width: 1px;
@@ -50,19 +46,24 @@ hr {
 }
 
 #profile {
-    width: 200px;
-    height: 150px;
+    width: 100%;
+    max-width: 300%;
 }
 
 .title {
     color: #4aaaa5;
     font-family: Georgia,'Times New Roman', Times, serif;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+h2, h3 {
+    border-bottom: 2px solid gainsboro;
+    padding-bottom: 25px;
 }
 
 h2 {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 h3 {
@@ -80,12 +81,7 @@ h3 {
     padding-top: 30px;
 }
 
-#social-nav {
-    padding-top: 10px;
-}
-
 #footer {
-    width: 100%;
     background-color: #666666;
     color: white;
     text-align: center;
@@ -94,16 +90,68 @@ h3 {
     border-top-style: solid;
     border-top-color: #4aaaa5;
     border-top-width: 10px;
-    margin-left: -10px;
-    margin-bottom: 0px;
 }
 
-p {
+.descr {
     padding: 0px;
 }
 
+@media screen and (min-width: 640px){
 
-@media (min-width: 768px){
+    .clear:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    #header-wrapper {
+        padding: 0em;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #logo {
+        padding: 4%;
+    }
+
+    #main-nav {
+        padding: 2%;
+        word-spacing: 4.5em;
+        font-size: 1em;
+        margin-left: 3em;
+    }
+
+    #content-wrapper {
+        width: 95%;
+        margin: 0 auto; 
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .descr {
+        line-height: 150%;
+    }
+
+    h3 { 
+        font-size: 1em;
+    }
+
+    #profile {
+        width: 100%;
+        padding-bottom: 2%;
+        
+    }
+
+    #footer {
+        font-size: .70em;
+        padding: 6%;
+        margin-bottom: .10%
+    }
+}
+
+@media screen and (min-width: 768px){
     
     .clear:after{
         content: "";
@@ -118,13 +166,14 @@ p {
 
     #logo {
         width: 30%;
-        padding:4%;        
+        padding: 4%;        
     }
 
     #logo,
     #profile{
         float: left;
     }
+    
     #main-nav{
         float: right;
         padding: 4%;
@@ -152,6 +201,42 @@ p {
 
    #footer {
        padding: 5%;
-       float: bottom;       
+       float: bottom;
+       font-size: .70em;      
    }
+}
+
+@media screen and (min-width: 980px){
+    .clear:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    #logo {
+        margin-left: 10%;
+    }
+
+    #main-nav {
+        margin-right: 5%;
+    }
+
+    #content {
+        width: 50%;
+        margin-left: 10%;
+    }
+
+    #sidebar {
+        width: 20%;
+        float: right;
+        margin-top: -74.35%;
+        text-align: center;
+        padding: 2%;
+        margin-right: 8%;
+    }
+
+    #profile {
+        width: 100%;
+    }
+
 }
