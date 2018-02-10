@@ -312,12 +312,12 @@ h3 {
     #content {
         width: 50%;
         margin-left: 10%;
+        float: left;
     }
 
     #sidebar {
         width: 20%;
         float: right;
-        margin-top: -74.35%;
         text-align: center;
         padding: 2%;
         margin-right: 8%;
