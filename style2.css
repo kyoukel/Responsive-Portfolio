@@ -56,8 +56,6 @@ a:link, a:visited {
 
 #photos {
     width: 100%;
-    position: inherit;
-    z-index: -1;
 }
 
 #banner1,
@@ -72,8 +70,15 @@ a:link, a:visited {
     font-weight: bold;
     text-align: center;
     font-size: 20px;
+}
+
+gallery li {
     position: relative;
-    z-index: 1;
+}
+
+gallery li p {
+    width: 100%;
+    position: absolute;
 }
 
 .title {
