@@ -33,6 +33,10 @@ a:link, a:visited {
     text-decoration: none;
 }
 
+#content-wrapper {
+    width: 100%;
+}
+
 #content {
     background-color: #ffffff;
     color: #353333;
@@ -48,6 +52,28 @@ a:link, a:visited {
 #profile {
     width: 100%;
     max-width: 300%;
+}
+
+#photos {
+    width: 100%;
+    position: inherit;
+    z-index: -1;
+}
+
+#banner1,
+#banner2,
+#banner3,
+#banner4,
+#banner5 {
+    width: 94%;
+    padding: 15px;
+    background-color: #4aaaa5;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
 }
 
 .title {
@@ -130,6 +156,21 @@ h3 {
         font-size: 1.5em;
     }
 
+    #photos {
+        width: 20em;
+        height: 15em;
+        margin-bottom: 3%;
+    }
+
+    #banner1,
+    #banner2,
+    #banner3,
+    #banner4,
+    #banner5, {
+        width: 85%;
+        margin-top:
+    }
+
     .descr {
         line-height: 150%;
     }
@@ -189,6 +230,10 @@ h3 {
         margin: 0 auto;
     }
 
+    img {
+        float: left;
+    }
+
     #content {
         line-height: 150%;
     }
@@ -199,6 +244,48 @@ h3 {
         padding-bottom: 15px;
     }
 
+    #photos {
+        width: 48%;
+        margin-right: 2%;
+        margin-bottom: 4%;
+        
+    }
+
+    #banner {
+        margin-top: 10%;
+        width: 40%;   
+    }
+
+    #banner1 {
+        margin-top: -13.5%;
+        padding: 3%;
+        width: 85%;
+    }
+
+    #banner2 {
+        margin-top: -13.5%;
+        padding: 3%;
+        width: 85%;
+    }
+
+    #banner3 {
+        margin-top: -13.5%;
+        padding: 3%;
+        width: 85%;
+    }
+
+    #banner4 {
+        margin-top: -13.5%;
+        padding: 3%;
+        width: 85%;
+    }
+
+    #banner5 {
+        margin-top: -13.5%;
+        padding: 3%;
+        width: 85%;
+    }
+
    #footer {
        padding: 5%;
        float: bottom;
@@ -207,6 +294,7 @@ h3 {
 }
 
 @media screen and (min-width: 980px){
+    
     .clear:after{
         content: "";
         display: table;
@@ -236,6 +324,10 @@ h3 {
     }
 
     #profile {
+        width: 100%;
+    }
+
+    #photos {
         width: 100%;
     }
 

@@ -13,60 +13,55 @@
 </head>
 <body>
 
-<!--Links that open into other html files and will remain in their fixed position for each page.-->
-<header id="fixed">
-    <article id="right">
-        <a href="index2.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </article>
-</header>
-
-<!--Heading that is positioned relative to fixed header with links.-->
-<div id="relative"><strong>Kimberly Youkel</strong></div>
-
-    <!--Float all sections, id's, images, and p's within this div.-->
-    <div class="wrapper">
-    
-        <!--Main Content of portfolio.html page.-->
-        <section id="content2">    
+    <div id="header-wrapper">
+        <header class="clear">
+            <h1 id="logo">Kimberly Youkel</h1>
+            <div>
+                <ul id="main-nav">
+                    <li><a href="index2.html">About | </a></li>
+                    <li><a href="portfolio.html">Portfolio | </a></li>
+                    <li><a href="contact.html">Contact </a></li>
+                </ul>
+            </div>
+        </header>
+    </div>
+        
+    <div id="content-wrapper">
+        <div id="content" class="clear">
+            <h2 class="title"><strong>Portfolio</strong></h2>
+                
+                <ul id="gallery">
+                    <li><img src="assets/images/hangman.jpg" width="240px" height="160px" id="photos"></li>
+                        <p id="banner1"><strong>Hangman</strong></p>
+                    <li><img src="assets/images/rpg-game.jpg" width="240px" height="160px" id="photos"></li>
+                        <p id="banner2"><strong>RPG Game</strong></p>
+                    <li><img src="assets/images/trivia-game.jpg" width="240px" height="160px" id="photos"></li>
+                        <p id="banner3"><strong>Trivia Game</strong></p>
+                    <li><img src="assets/images/rutgers-info-widget.jpg" width="240px" height="160px" id="photos"></li>
+                        <p id="banner4"><strong>Rutgers Info Widget</strong></p>
+                    <li><img src="assets/images/rock-paper-scissors.jpg" width="240px" height="160px" id="photos"></li>
+                        <p id="banner5"><strong>Rock Paper Scissors</strong></p>
+                </ul> 
+        </div>          
+      
             
-            <!--Bolded Header-->
-            <h2><strong>Portfolio</strong>
-            <hr id="hr2"> <!--line inserted beneath header.-->
-            </h2>
-                <!--Image gallery with relative paths to locate the file.-->
-                <div class="gallery">
-                    <img src="assets/images/hangman.jpg" width="240px" height="160px">
-                  <h4><strong>Hangman</strong></h4>  
-                    <img src="assets/images/rpg-game.jpg" width="240px" height="160px">
-                  <h5><strong>RPG Game</strong></h5>
-                    <img src="assets/images/trivia-game.jpg" width="240px" height="160px">
-                  <h6><strong>Trivia Game</strong></h6>
-                    <img src="assets/images/rutgers-info-widget.jpg" width="240px" height="160px">
-                  <h7><strong>Rutgers Info Widget</strong></h7>
-                    <img src="assets/images/rock-paper-scissors.jpg" width="240px" height="160px">
-                  <h8><strong>Rock Paper Scissors</strong></h8>
-                </div> 
-        </section>          
-    </div>  
-            <!--Sidebar with icons.-->
-            <aside id="sidebar2">
-                    <!--Bolded Header-->
-                    <h3><strong>Connect with Me</strong></h3>
-                    
-                        <!--Icon images when clicked go to my online profile pages.-->
-                        <article id="align">
-                            <a href="https://github.com/kyoukel/Basic-Portfolio"><img src="assets/images/github-icon.png" width="50" height="50" alt="GitHub" id="gh">
-                            </a>
-                            
-                            <a href="https://linkedin.com/in/kimberly-youkel"><img src="assets/images/linkedin-icon.png" width="50" height="50" alt="LinkedIn" id="link">
-                            </a>
-    
-                            <a href="https://stackexchange.com/users/12715188/kyoukel"><img src="assets/images/stack-overflow-icon.png" width="46" height="46" alt"Stack Overflow" id="resize">
-                            </a>
-                        </article>    
-            </aside>       
+        <div id="sidebar">
+            <h3 class="title">Connect with Me</h3>
+            <ul id="social-nav">
+
+                <li><a href="https://github.com/kyoukel/Basic-Portfolio"><img src="assets/images/github-icon.png" width="50" height="50" alt="GitHub" id="gh"></a></li>
+
+                <li><a href="https://linkedin.com/in/kimberly-youkel"><img src="assets/images/linkedin-icon.png" width="50" height="50" alt="LinkedIn" id="link"></a></li>
+
+                <li><a href="https://stackexchange.com/users/12715188/kyoukel"><img src="assets/images/stack-overflow-icon.png" width="46" height="48" alt"Stack Overflow" id="resize"></a></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>&copy; Copywright 2018 Kimberly Youkel</p>
+    </div>
 
 </body>
 </html>
