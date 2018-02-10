@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" text="text/css" href="style2.css">
+    <link rel="stylesheet" text="text/css" href="assets/css/style2.css">
 
     <!--Title in browser tab-->
     <title>Contact Page</title>
@@ -27,40 +27,34 @@
     </div>
     
            
-    <div id="content-wrapper">
+    <div id="content-wrapper" class="clear">
         <div id="content" class="clear">    
             <h2 class="title"><strong>Contact</strong></h2>
-
-                <form action="/action_page.php">
+                <form action="/action_page.php" id="align">
                     <p>Name</p>
                     <label for="Name"></label>
                     <input type="text" id="FullName" placeholder="John Smith..">
-                    
+                    <br>
                     <p>Email</p>
                     <label for="Email"></label>
                     <input type="text" id="Email" placeholder="example@gmail.com..">
-
+                    <br>
                     <p>Message</p>
                     <label for="Message"></label>
                     <input type="text" id="Message">
-
-                    <input type="submit" value="Submit">
+                    <br>
+                    <input type="submit" value="Submit" id="submit">
                 </form>
-            
         </div>
-    </div>
             
-        <div id="sidebar">
-            <h3 class="title">Connect with Me</h3>
-            <ul id="social-nav">
-
-                <li><a href="https://github.com/kyoukel/Basic-Portfolio"><img src="assets/images/github-icon.png" width="50" height="50" alt="GitHub" id="gh"></a></li>
-
-                <li><a href="https://linkedin.com/in/kimberly-youkel"><img src="assets/images/linkedin-icon.png" width="50" height="50" alt="LinkedIn" id="link"></a></li>
-
-                <li><a href="https://stackexchange.com/users/12715188/kyoukel"><img src="assets/images/stack-overflow-icon.png" width="46" height="48" alt"Stack Overflow" id="resize"></a></li>
-            </ul>
-        </div>
+            <div id="sidebar">
+                <h3 class="title">Connect with Me</h3>
+                <ul id="social-nav">
+                    <li><a href="https://github.com/kyoukel/Basic-Portfolio"><img src="assets/images/github-icon.png" width="50" height="50" alt="GitHub" id="gh"></a></li>
+                    <li><a href="https://linkedin.com/in/kimberly-youkel"><img src="assets/images/linkedin-icon.png" width="50" height="50" alt="LinkedIn" id="link"></a></li>
+                    <li><a href="https://stackexchange.com/users/12715188/kyoukel"><img src="assets/images/stack-overflow-icon.png" width="46" height="48" alt"Stack Overflow" id="resize"></a></li>
+                </ul>
+            </div>
     </div>
 
         <div id="footer">
