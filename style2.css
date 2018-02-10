@@ -72,12 +72,13 @@ a:link, a:visited {
     font-size: 20px;
 }
 
-gallery li {
+#gallery li {
     position: relative;
 }
 
-gallery li p {
+#gallery li p {
     width: 100%;
+    padding: 0;
     position: absolute;
 }
 
@@ -99,6 +100,10 @@ h2 {
 
 h3 {
     font-size: 18px;
+}
+
+submit {
+    position: relative;
 }
 
 #sidebar {
@@ -157,23 +162,36 @@ h3 {
         margin: 0 auto; 
     }
 
+    form {
+        padding-bottom: 45%;
+    }
+
+    label {
+        margin-bottom: 10%;
+    }
+
+    input {
+
+        padding: 2%;
+    }
+
+   
+
+    #gallery li p {
+        padding: 3%;
+        z-index: 1;
+        bottom: 12%;
+        width: 94%;
+    }
+
     h2 {
         font-size: 1.5em;
     }
 
     #photos {
-        width: 20em;
+        width: 100%;
         height: 15em;
         margin-bottom: 3%;
-    }
-
-    #banner1,
-    #banner2,
-    #banner3,
-    #banner4,
-    #banner5, {
-        width: 85%;
-        margin-top:
     }
 
     .descr {
@@ -213,6 +231,12 @@ h3 {
     #logo {
         width: 30%;
         padding: 4%;        
+    }
+
+    #gallery li p {
+        padding: 3%;
+        z-index: 1;
+        width: 42%;
     }
 
     #logo,
@@ -308,6 +332,12 @@ h3 {
 
     #logo {
         margin-left: 10%;
+    }
+
+    #gallery li p {
+        padding: 3%;
+        z-index: 1;
+        width: 94%;
     }
 
     #main-nav {
