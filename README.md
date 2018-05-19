@@ -4,18 +4,19 @@
 
 > This project will be enhancing the `Basic-Portfolio` repo with a mobile-responsive layout.
 
-## (No Bootstrap)
+## Instructions (No Bootstrap)
 
-1.	Copy the contents of `Basic-Portfolio` and paste the mentioned files into `Responsive-Portfolio`.
+1. Copy the contents of `Basic-Portfolio` and paste the mentioned files into `Responsive-Portfolio`.
 
 2. If applicable: Be sure not to include any _dot files (e.g. .git, .gitignore)_ from the `Basic-Portfolio` repo.
 
-3.	Inside your `Responsive-Portfolio` folder, find your `styles.css` file. 
+3. Inside your `Responsive-Portfolio` folder, find your `styles.css` file. 
+
 > Write the media queries at the bottom of styles.css.
     
-    > Write the media queries at the bottom of styles.css.
+> Write the media queries at the bottom of styles.css.
 
-4.	Use `three @media screen tags`, each with one of these min-widths: `980px`, `768px` and `640px`.
+4. Use `three @media screen tags`, each with one of these min-widths: `980px`, `768px` and `640px`.
 
 * You use `980px` because you never want any of the content to be cut off. Since the desktop layout is about 960px wide, you want the media queries to kick in before your content gets cut off.
 
@@ -44,6 +45,6 @@
 8.	Deploy your new portfolio (now with media queries!) to GitHub Pages.
 
 ### BONUS
-•	Incorporate CSS animations in your portfolio. https://www.w3schools.com/css/css3_animations.asp
+•	Incorporate CSS animations in your portfolio. More info: https://www.w3schools.com/css/css3_animations.asp
 
 
